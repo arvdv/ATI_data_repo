@@ -2,7 +2,7 @@ sources:
   honey_bees:
       description: Images of several different types of honeybee, some of which have pollen, and some of which don't. Can be used to train machine learning models to identify honey bee species and/or to identify "robber bees".
       origin: https://zenodo.org/record/7093276
-      driver: png
+      driver: intake_xarray.image.ImageSource
       args:
         urlpath: ["zip://*.png::https://zenodo.org/record/7093276/files/honey_bees.zip"]
         chunks: {}
