@@ -9,3 +9,5 @@ sources:
         storage_options: {'anon': True}
         coerce_shape: [1000, 1000]
         exif_tags: 
+
+# goo goo ga ga
