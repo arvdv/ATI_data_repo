@@ -7,5 +7,5 @@ sources:
         urlpath: ["zip://*.png::https://zenodo.org/record/7093276/files/honey_bees.zip"]
         chunks: {}
         storage_options: {'anon': True}
-        coerce_shape: [10, 10]
+        coerce_shape: [1000, 1000]
         exif_tags: 
